@@ -14,66 +14,33 @@
   <link href="assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
   <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <link rel="stylesheet" href="/Css/styles.css">
 </head>
 <body>
 
 
        
-  <header class="main_menu home_menu" style="position: fixed; z-index: 2;linear-gradient(to right, #000428 0%, #004e92 100%)"  id = "nav">
+  <nav class="nav">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo" height="80px"> </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="ti-menu"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse main-menu-item justify-content-end"
-                        id="navbarSupportedContent">
-                        <ul class="navbar-nav align-items-center">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">about</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="event.html">Event</a>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Causes
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="gep.html">Girl Empowerment Program</a>
-                                    <a class="dropdown-item" href="cap.html">Cancer Awareness Program</a>
-                                    <a class="dropdown-item" href="gmp.html">General Mentorship Program</a>
-                                </div>
-                            </li>
-
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                            <li class="d-none d-lg-block">
-                               
-                              
-
-
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+        <div class="logo">
+            <img src="/img/logo.png" alt="" srcset="">
         </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks" style="margin-right: -50px;">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <span class="navTrigger" style="margin-top: 50px;text-align: center;">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
     </div>
-</header>
+</nav>
 
   <section class="hero-section" id="hero">
 
@@ -114,21 +81,24 @@
 
   </section>
   <div class="container">
+    
 
   <div class="section-title" data-aos="fade-up" data-aos-delay="100" >
     <div class="row">
       <div class="col-md-6">
-        <img src="/img/web3.jpg" alt="" srcset="" style="height: 100%; width: 100%;">
+        <img src="/img/web3.jpg" alt="" srcset="" style="height: 100%; width: 100%;"  data-aos="fade-up" data-aos-delay="100">
       </div>
       <div class="col-md-6">
     <h2>We design to help you get to market quickly..</h2>
-  </div>
-</div>
     <p>Through continuous iterations and testing validations, we create a future-proofed, resilient product for you..</p>
   </div>
-  <div class="row">
+</div>
+  
+  </div>
+  <div class="row" style="margin-top: 60px;">
     <div class="col-md-12">
   <h1>Services</h1>
+  <div class="underline" style="margin-top: -12px;"></div>
 </div>
 </div>
 </div>
@@ -136,129 +106,351 @@
    
 
    
-  
-    <div class="row">
+    <div class="row" >
       <div class="col-md-6">
         <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-          <i class="icofont-computer" ></i>
-          <h4><a href="#">Lorem Ipsum</a></h4>
-          <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          
+          <h1>  <i class="icofont-computer"></i> Web Development</h1>
+        
         </div>
       </div>
       <div class="col-md-6">
         <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-          <i class="icofont-chart-bar-graph"></i>
-          <h4><a href="#">Dolor Sitema</a></h4>
-          <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          
+          <h1> <i class="icofont-cubes"></i> UX/UI Design</h1>
+        
         </div>
       </div>
       <div class="col-md-6 ">
         <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-          <i class="icofont-image"></i>
-          <h4><a href="#">Sed ut perspiciatis</a></h4>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-        </div>
-      </div>
-     
-    </div>
-
-  </div>
-   
-  </section>
-  
-
-  <div class="section-title" data-aos="fade-up" data-aos-delay="100">
-    <h2>Services</h2>
-    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
-  </div>
-  
-  <section class="header">
-  
-  
-
-    <div class="row">
-      <div class="col-md-6">
-        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-          <i class="icofont-computer" ></i>
-          <h4><a href="#">Lorem Ipsum</a></h4>
-          <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-          <i class="icofont-chart-bar-graph"></i>
-          <h4><a href="#">Dolor Sitema</a></h4>
-          <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          
+          <h1> <i class="icofont-brand-china-mobile"></i> Branding and Logo</h1>
+      
         </div>
       </div>
       <div class="col-md-6 ">
-        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-          <i class="icofont-image"></i>
-          <h4><a href="#">Sed ut perspiciatis</a></h4>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+          
+          <h1>  <i class="icofont-ui-touch-phone"></i> Mobile App Development</h1>
+      
         </div>
       </div>
+     
      
     </div>
 
   </div>
+ 
    
   </section>
 
-  
-  <!-- <div class="row"> 
-  <section id="first">
+  <div class="container">
+
+    <h1 data-aos="fade-up" data-aos-delay="200">The Team</h1>
     
-      <div class="col-md-8">
-    <div class="content" id="typedtext"> -->
-      <!-- <h1>We do UX Design mobile and Web UI, Software Development.</h1> -->
-    <!-- </div> <br>
-    <a href="#about" class="get-started-btn scrollto">Get Started</a>
   </div>
-  <div class="col-md-4">
-    <img src="/Images/phone2.jpg">
-    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#fff" fill-opacity="1" d="M0,256L34.3,234.7C68.6,213,137,171,206,170.7C274.3,171,343,213,411,234.7C480,256,549,256,617,245.3C685.7,235,754,213,823,181.3C891.4,149,960,107,1029,90.7C1097.1,75,1166,85,1234,122.7C1302.9,160,1371,224,1406,256L1440,288L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
-    </svg>
+  <div class="underline" data-aos="fade-up" data-aos-delay="200" style="margin-top: -22px;" ></div> <br> <br>
+  
+  <div class="container" id = "cont" >
+    <div class="row" style="margin-bottom: 50px;margin-right: 50px;" >
+      <div class="col-md-6">
+    <div class="card" data-aos="fade-up" data-aos-delay="400" style="margin-bottom: 30px;">
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+      <img src="https://lh3.googleusercontent.com/oUUiPB9sq3ACq4bUaRmo8pgvC4FUpRRrQKcGIBSOsafawZfRpF1vruFeYt6uCfL6wGDQyvOi6Ez9Bpf1Fb7APKjIyVsft7FLGR6QqdRFTiceNQBm1In9aZyrXp33cZi9pUNqjHASdA=s170-no" alt="Person" class="card__image">
+    </div>
+    <div class="col-md-6 "style="margin-top:40px;">
+      <h3 class="card-title" style=" display: inline-flex;color: rgb(66, 82, 133);">Victor Benavente</h3>
+      <h4 class="card-text">Chief Executive Officer</h4>
+      <div class="grid-container" >
+  
+       
+  
+      </div>
+      <ul class="social-icons" style="display: inline-flex;margin-left: -5px;">
+        <li data-aos="fade-up" data-aos-delay="200"><a href="#"><i class="bx bxl-instagram"></i></a></li>
+        <li data-aos="fade-up" data-aos-delay="300"><a href="#"><i class="bx bxl-twitter"></i></a></li>
+        <li data-aos="fade-up" data-aos-delay="400"><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+      </ul>
+      <!-- <button class="btn draw-border" data-aos="fade-up" data-aos-delay="200">Follow</button> -->
+    </div>
+    </div>
+   
+  
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card" data-aos="fade-up" data-aos-delay="500" style="margin-bottom: 30px;">
+      <div class="row">
+        <div class="col-md-6 ">
+      <img src="https://lh3.googleusercontent.com/ytP9VP86DItizVX2YNA-xTYzV09IS7rh4WexVp7eilIcfHmm74B7odbcwD5DTXmL0PF42i2wnRKSFPBHlmSjCblWHDCD2oD1oaM1CGFcSd48VBKJfsCi4bS170PKxGwji8CPmehwPw=w200-h247-no" alt="Person" class="card__image">
+    </div>
+    <div class="col-md-6 col-xs-12"  style="margin-top:40px;">
+      <h3 class="card-title" style=" display: inline-flex;color: rgb(66, 82, 133);">Lorraine Kamanda</h3>
+      <h4 class="card-text">Software Developer</h4>
+      <div class="grid-container" >
+  
+       
+  
+      </div>
+      <ul class="social-icons" style="display: inline-flex;margin-left: -5px;">
+        <li data-aos="fade-up" data-aos-delay="200"><a href="#"><i class="bx bxl-instagram"></i></a></li>
+        <li data-aos="fade-up" data-aos-delay="300"><a href="#"><i class="bx bxl-twitter"></i></a></li>
+        <li data-aos="fade-up" data-aos-delay="400"><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+      </ul>
+ 
+    </div>
+    </div>
   </div>
   </div>
-  </section> -->
+</div>
+ <div class="row">
+  <div class = "col-md-6">
+    <div class="card" data-aos="fade-up" data-aos-delay="500" style="margin-bottom: 30px;">
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+      <img src="https://lh3.googleusercontent.com/pZwZJ5HIL5iKbA91UGMUIPR0VJWa3K0vOGzDZmY6wU3EJBUdfsby3VEyxU162XxTyOyP3D154tjkr-4Jgcx8lygYUR8eB-jVmld4dsHi1c-mE_A8jKccseAG7bdEwVrcuuk6ciNtSw=s170-no" alt="Person" class="card__image">
+    </div>
+    <div class="col-md-6 "style="margin-top:40px">
+      <h3 class="card-title" style=" display: inline-flex;color: rgb(66, 82, 133);">Nancy Ta</h3>
+      <h4 class="card-text">Designer</h4>
+
+      <div class="grid-container" >
+  
+       
+  
+      </div>
+      <ul class="social-icons" style="display: inline-flex;margin-left: -5px;">
+        <li data-aos="fade-up" data-aos-delay="200"><a href="#"><i class="bx bxl-instagram"></i></a></li>
+        <li data-aos="fade-up" data-aos-delay="300"><a href="#"><i class="bx bxl-twitter"></i></a></li>
+        <li data-aos="fade-up" data-aos-delay="400"><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+      </ul>
+      <!-- <button class="btn draw-border" data-aos="fade-up" data-aos-delay="200">Follow</button> -->
+    </div>
+    </div>
+
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card" data-aos="fade-up" data-aos-delay="600" style="margin-bottom: 30px;">
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+      <img src="https://lh3.googleusercontent.com/oUUiPB9sq3ACq4bUaRmo8pgvC4FUpRRrQKcGIBSOsafawZfRpF1vruFeYt6uCfL6wGDQyvOi6Ez9Bpf1Fb7APKjIyVsft7FLGR6QqdRFTiceNQBm1In9aZyrXp33cZi9pUNqjHASdA=s170-no" alt="Person" class="card__image">
+    </div>
+    <div class="col-md-6 "style="margin-top:40px;">
+      <h3 class="card-title" style=" display: inline-flex;color: rgb(66, 82, 133);">Johny</h3>
+      <h4 class="card-text">Business Analyst</h4>
+      <div class="grid-container" >
+  
+       
+  
+      </div>
+      <ul class="social-icons" style="display: inline-flex;margin-left: -5px;">
+        <li data-aos="fade-up" data-aos-delay="200"><a href="#"><i class="bx bxl-instagram"></i></a></li>
+        <li data-aos="fade-up" data-aos-delay="300"><a href="#"><i class="bx bxl-twitter"></i></a></li>
+        <li data-aos="fade-up" data-aos-delay="400"><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+      </ul>
+      <!-- <button class="btn draw-border" data-aos="fade-up" data-aos-delay="200">Follow</button> -->
+    </div>
+    </div>
+   
+  
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
 
 
 
+ <section class="header">
+  
+  
 
-
-
-
-
-  <!-- <section class="sec1"></section>
-  <section class="sec2"></section>
-  <section class="sec3"></section> -->
-
-  <!-- <section class="skew1">
     <div class="row">
-      <div class="container">
-        <div class="col-md-9">
-          <div class="p1">
-            <p>We desing to help you get to market quickly</p>
-            <p>Through continuous iterations and testing validations,we create a future-proofed,resilient product for you.</p>
-          </div>
-        </div>
-
-        <div class="col-md-9">
-          <div class="p2">
-            <p>UX Design</p>
-            <p>Web Developement</p>
-            <p>Branding & Logo</p>
-          </div>
+    
+      <div class="col-md-12">
+        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+         
+          <h3 style="color: white;">A combination of aesthetic craft and engineering.
+            With a research-based approach and precise attention to details, we design and launch digital products of any scale and platform to drive business growth and make people’s lives better.</h3>
         </div>
       </div>
+      
+     
     </div>
-  </section> -->
 
-  <!-- <section class="sec">
-      <span class="skewed"></span>
-  </section> -->
+  </div>
+   
+  </section>
+
+  <div class="container">
+    <h1  style="margin-top: 50px; margin-bottom: 50px;">CONTACT US</h1> 
+    <div class="underline" ></div> <br> <br>
+  <div class="row contact-info" style="text-align: center;" >
+
+    <div class="col-md-4"  style="border-right: rgba(9, 216, 248, 0.8) solid 2px;">
+      <div class="contact-address">
+        <i class="fas fa-map-marker" style="font-size: 40px;color:rgba(37, 87, 189, 0.8)"></i>
+        <h3>Address</h3>
+        <p>  <a href="https://goo.gl/maps/f4pUeWpSJ75FZVMx9">Ukunda,Kenya</a></p>
+      </div>
+     
+      
+    </div>
+
+    <div class="col-md-4"  style="border-right: rgba(9, 216, 248, 0.8) solid 2px;">
+      <div class="contact-phone">
+        <i class="fas fa-phone" style="font-size: 40px;color:rgba(37, 87, 189, 0.8)"></i>
+        <h3>Phone Number</h3>
+        <p><a href="tel:+254722802704">+254 722 802 704</a></p>
+      </div>
+    </div>
+
+    <div class="col-md-4"  style="border-right: rgba(9, 216, 248, 0.8) solid 2px;">
+      <div class="contact-email">
+        <i class="fas fa-envelope" style="font-size: 40px;color:rgba(37, 87, 189, 0.8)"></i>
+        <h3>Email</h3>
+        <p><a href="mailto:info@girlsonmission.org">info@girlsonmission.org</a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <div class="embedded-map" style="margin-top: 40px;">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15914.63022228544!2d39.556467576821305!3d-4.286564250145758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184045f950371c63%3A0xdd0680f05b13c443!2sUkunda!5e0!3m2!1sen!2ske!4v1603125520611!5m2!1sen!2ske" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+  </div>
+</div>
+</div>
+
+  <!-- ================ contact section start ================= -->
+  <div class="contact-section ">
+    <div class="container">
+     
+
+      <div class="row" style="margin-top: 20px;font-weight: 500;">
+       
+        <div class="col-md-12">
+          <form class="form-contact contact_form" action="mail.php" method="post" id="contactForm"
+            novalidate="novalidate">
+            <div class="row" >
+              
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Enter your name'" placeholder= 'Enter your name'>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Enter email address'" placeholder='Enter email address'>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Enter Subject'" placeholder='Enter Subject'>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+
+                  <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
+                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"
+                    placeholder='Enter Message'></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <button type="submit" class="btn_3">Send Message <i
+                  class="flaticon-right-arrow"></i> </button>
+            </div>
+          </form>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+  <footer class="footer_part" style="background-color: rgb(241, 247, 248);">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-sm-6 col-lg-3">
+                <div class="single_footer_part">
+                    <img src="/img/logo.png" class="footer_logo" alt="" height="50px">
+                    <p>KEEP HOPE ALIVE!
+                    </p>
+                    <div class="work_hours">
+                        <h5>NEED ANSWERS?</h5>
+                        <p>All enquires are to be sent to <a
+                                href="mailto:info@girlsonmission.org">info@girlsonmission.org</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-2">
+                <div class="single_footer_part">
+                    <h4>Don't get lost</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="gep.html">Home</a></li>
+                        <li><a href="cap.html">About</a></li>
+                        <li><a href="gmp.html">Services</a></li>
+                        <li><a href="gmp.html">Team</a></li>
+                        <li><a href="gmp.html">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+                <div class="single_footer_part">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our Newletter to be Updated on Upcoming Events and Activites.
+                    </p>
+                    <div id="mc_embed_signup">
+                        <form target="_blank"
+                            action="https://gmail.us4.list-manage.com/subscribe/post?u=70dd7ec9c56206b77543d9556&amp;id=754fa06386"
+                            method="get" class="subscribe_form relative mail_part" required>
+                            <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
+                                class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
+                                onblur="this.placeholder = ' Email Address '" required="" type="email">
+                            <button type="submit" name="submit" id="newsletter-submit"
+                                class="email_icon newsletter-submit button-contactForm"><i
+                                    class="far fa-paper-plane"></i></button>
+                            <div class="mt-10 info"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="copyright_text">
+                    <P>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Website has been designed</i> by <a href="https://mufeshi.com" target="_blank" style="color: rgba(37, 87, 189, 0.8)">Hooligan LLC</a>
+
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="footer_icon social_icon">
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="single_social_icon" style="font-size: 24px; color: rgb(0, 102, 255);"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="single_social_icon" style="font-size: 24px;color: rgb(0, 102, 255);"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="single_social_icon" style="font-size: 24px;color: rgb(0, 102, 255);"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#" class="single_social_icon" style="font-size: 24px;color: rgb(0, 102, 255);"><i class="fas fa-envelope"></i></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>

@@ -1,3 +1,29 @@
+
+
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 100) {
+    $('.back-to-top').fadeIn('slow');
+  } else {
+    $('.back-to-top').fadeOut('slow');
+  }
+});
+
+$('.back-to-top').click(function() {
+  $('html, body').animate({ scrollTop: 0 }, "slow");
+  return false;
+});
+
+$('.navTrigger').click(function () {
+  $(this).toggleClass('active');
+  console.log("Clicked menu");
+  $("#mainListDiv").toggleClass("show_list");
+  $("#mainListDiv").fadeIn();
+
+});
+
+
+
 // set up text to print, each item in array is new line
 var aText = new Array(
     "We do UX Design,Mobile",
