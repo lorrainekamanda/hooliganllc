@@ -336,7 +336,7 @@
       <div class="row" style="margin-top: 20px;font-weight: 500;">
        
         <div class="col-md-12">
-          <form class="form-contact contact_form" action="mail.php" method="post" id="contactForm"
+          <!-- <form class="form-contact contact_form" action="mail.php" method="post" id="contactForm"
             novalidate="novalidate">
             <div class="row" >
               
@@ -371,7 +371,22 @@
               <input type="submit" id="submit" value="SEND" />
             
             </div>
-          </form>
+          </form> -->
+          <form id="my_form" onsubmit="submitForm(); return false;">
+            <p> <label>First Name</label>
+               <input type="text" name="first_name" id="firstName" required> </p>
+               <p> <label>Last Name</label>
+                 <input type="text" name="last_name" id="lastName" required> </p>
+                 <p> <label>Phone Number</label>
+                   <input type="text" name="phone_number" id="phoneNumber" required> </p>
+                   <p> <label>Email Address</label>
+                     <input type="email" name="email_address" id="emailAddress" required> </p>
+                     <p class="full"> <label>Message</label>
+                       <textarea name="message" rows="5" id="message" required></textarea> </p>
+                       <p class="full">
+                         <button id="button" type="submit" value="Submit Form"><span id="status"></span>Email</button>
+                       </p>
+                     </form>
         </div>
        
       </div>
